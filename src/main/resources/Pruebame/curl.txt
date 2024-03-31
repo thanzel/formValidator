@@ -1,0 +1,18 @@
+//curl para probar la app
+
+curl --location 'http://localhost:8080/save' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"name": "Maria",
+"lastName":null,
+"email": "mp@gmail.com",
+"phone": 123451241,
+"age": 81,
+"height": 1.75,
+"married": true,
+"dateOfBirth": "2025-01-02",
+"departmentDTO":{
+"name":" ",
+"city":"Medellín"
+}
+}'
