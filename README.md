@@ -1,2 +1,7 @@
-# formValidator
-Esta app contiene formas de validar el RequestBody, anotaciones comunes y creación de una nueva anotación ejemplo. Proyecto realizado en Spring 3.2.4, Java 17. Fecha de Creación 30-03-2024
+# Proyecto realizado en Spring 3.2.4 con Java 17 (Maven - Jar)
+
+Esta app contiene formas de validar el RequestBody en los DTO's.
+- Uso de anotaciones comunes sobre varios tipos de datos (@NotNull, @NotBlank, @Size, @Min, @Max, @Digits, @AssertTrue, @Email, @Past, @NotEmpty, @Valid - @Validated, etc)
+- Creación de una nueva anotación (@ValidName)
+  
+Fecha de Creación 30-03-2024
